@@ -1,0 +1,158 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* widget  */
+.btn-generate, .btn-search {
+    color: white;
+    border-radius: 5px;
+    background: #0085ba;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    height: 44px;
+}
+
+.btn-sync-getapi {
+    color: white;
+    border-radius: 5px;
+    background: #38e115;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    height: 44px;
+}
+
+.btn-sync-getapi:hover {
+    background: #00E14C;
+}
+
+.cloud-datepicker, .cloud-text-input {
+    width: 180px;
+    border: 1px solid #0077ff;
+    height: 40px;
+}
+
+.cloud-filters {
+    margin: 85px 0px 0px 100px;
+}
+
+.cloud-filter-tags-by-tags {
+    margin-top: 20px;
+}
+
+div .api-text-input {
+    width: 450px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px;
+}
+
+ul.tagcloud, ul.tagcloud li {
+    font-size: 1em;
+    list-style-type: none;
+    padding: 0;
+    margin: 3px;
+}
+
+ul.tagcloud li {
+    display: inline;
+}
+
+ul.tagcloud {
+    text-decoration: none;
+    padding: 3px 4px;
+}
+
+ul.tagcloud .tagged1 {
+    font-size: 0.8em;
+}
+
+ul.tagcloud .tagged2 {
+    font-size: 1.2em;
+}
+
+ul.tagcloud .tagged3 {
+    font-size: 1.8em;
+}
+
+ul.tagcloud .tagged4 {
+    font-size: 2.2em;
+}
+
+ul.tagcloud .tagged5 {
+    font-size: 3em;
+}
+
+#block-table-tags .dt-buttons button, #block-table-post .dt-buttons button {
+    padding: .375rem .75rem;
+}
+
+.input-mb-15 {
+    margin-bottom: 15px;
+}
+
+.btn-search-danger {
+    background-color: #DC3545;
+}
+
+.loader-cloud {
+    margin-left: 21em;
+    padding-top: 12em;
+}
+
+.block-cloud {
+    width: 705px;
+    height: 500px;
+    margin-top: 37px;
+    display: none;
+}
+
+.martini-wrapper {
+    padding-bottom: 10px;
+}
+
+.btn-sync-getapi-save {
+    width: 130px;
+    margin-left: 30px;
+    background-color: #0085ba;
+}
+
+.yes {
+    margin-right: 10px;
+}
+
+.feedback {
+    margin-top: 135px;
+}
+
+.pg-analytics {
+    margin-top: 0;
+}
+
+.flex-wrap {
+    margin-top: 15px;
+}
+
+.dev-stage {
+    display: none;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.dev-stage p {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.fixed-block-feedback {
+    position: fixed;
+    bottom: 30px;
+}
+
+.wrap-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
